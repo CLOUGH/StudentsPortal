@@ -10,4 +10,5 @@ Some of the features include :
 * Students can view and create timetables for semesters.
 * Create a registration process for students.
 * Create new accounts for students with all necessary information about that student.
+* Create features to connect with mysql.
 	  
