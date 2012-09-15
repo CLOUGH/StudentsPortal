@@ -8,4 +8,6 @@ Some of the features include :
 * Lectures/Departments can build schedules for courses.
 * Lectures/Department can set prequistes for courses.
 * Students can view and create timetables for semesters.
+* Create a registration process for students.
+* Create new accounts for students with all necessary information about that student.
 	  
