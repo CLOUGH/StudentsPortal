@@ -1,0 +1,1 @@
+ This folder is used to test modules of the the system using junit.
