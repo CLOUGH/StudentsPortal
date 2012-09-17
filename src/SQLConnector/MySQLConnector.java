@@ -21,7 +21,8 @@ public class MySQLConnector {
 	{
 		Statement mysql_statement = mysql_connection.createStatement();
 		ResultSet result = mysql_statement.executeQuery(query);
-		
 		return result;
 	}
+	
+	
 }
