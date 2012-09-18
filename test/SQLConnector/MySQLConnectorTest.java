@@ -8,16 +8,16 @@ import java.sql.ResultSetMetaData;
 
 //import org.junit.After;
 import org.junit.Before;
-//import org.junit.Ignore;
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class MySQLConnectorTest {
     /**************************************************************************************
 	* Constants to run test
 	***************************************************************************************/
-	private static String DATABASE_ADDRESS = "mysql://localhost/HRDatabase";
-	private static String USERNAME = "root";
-	private static String PASSWORD = "gtx@6075";
+	private static String DATABASE_ADDRESS = "mysql://198.61.198.236/StudentsPortal";
+	private static String USERNAME = "developers";
+	private static String PASSWORD = "problem";
 	private static String QUERY = "SELECT 1";
 	
 	/**************************************************************************************
@@ -65,6 +65,7 @@ public class MySQLConnectorTest {
 	* System should be able to get a data from a column in a selected set (query).
 	**************************************************************************************/
 	@Test
+	@Ignore
 	public void testGetRecordData() throws Exception{
 		String data = null;
 		String test_query = "SELECT * From personal_information where firstName= 'Warren'";

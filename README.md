@@ -11,4 +11,8 @@ Some of the features include :
 * Create a registration process for students.
 * Create new accounts for students with all necessary information about that student.
 * Create features to connect with mysql.
+
+Updates:
+* Created a server to host our database. (Note this was not free and i had to pay for this service)
+	the ip address for the server is http://198.61.198.236. This ser
 	  
